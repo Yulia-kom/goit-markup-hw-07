@@ -235,7 +235,6 @@ ul {
   margin-bottom: 30px;
 }
 
-/*Features*/
 .features__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -244,7 +243,7 @@ ul {
 }
 
 .features__item {
-  margin-right: var(--card-gap);
+  margin-right: 30px;
   width: 270px;
 }
 
@@ -278,7 +277,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--text-primary);
+  color: #212121;
   text-transform: uppercase;
   margin-top: 30px;
 }
@@ -288,7 +287,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--color-gray);
+  color: #757575;
 }
 
 /* Our Work*/
