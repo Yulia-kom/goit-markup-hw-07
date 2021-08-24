@@ -290,7 +290,6 @@ ul {
   color: #757575;
 }
 
-/* Our Work*/
 .our-work__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,11 +297,11 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-right: calc(-1 * var(--card-gap));
+  margin-right: calc(-1 * 30px);
 }
 
 .our-work__item {
-  margin-right: var(--card-gap);
+  margin-right: 30px;
   position: relative;
 }
 
@@ -335,12 +334,11 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0;
-  color: var(--color-white);
+  color: #ffffff;
 }
 
-/*Team*/
 .team {
-  background: var(--color-light-bg);
+  background: #f5f4fa;
   padding-top: 94px;
 }
 
@@ -351,16 +349,16 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: calc(-1 * var(--card-gap));
+  margin-right: calc(-1 * 30px);
 }
 
 .team__item {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  -ms-flex-preferred-size: calc 25%-var(--card-gap);
-      flex-basis: calc 25%-var(--card-gap);
-  margin-right: var(--card-gap);
+  -ms-flex-preferred-size: calc 25% - 30px;
+      flex-basis: calc 25% - 30px;
+  margin-right: 30px;
   background: #ffffff;
 }
 
@@ -374,9 +372,9 @@ ul {
 }
 
 .team-card__menu {
-  padding-top: var(--card-gap);
+  padding-top: 30px;
   text-align: center;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 30px 32px;
 }
 
@@ -387,7 +385,7 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--text-primary);
+  color: #212121;
   text-align: center;
 }
 
@@ -395,7 +393,7 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--text-secondary);
+  color: #757575;
   margin-bottom: 10px;
 }
 
@@ -431,15 +429,14 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--color-icon);
+  fill: #afb1b8;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social__icon:focus,
-.team-social__icon:hover {
-  background-color: var(--color-accent);
-  fill: var(--color-white);
+.team-social__icon:hover, .team-social__icon:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 /* Clients*/
@@ -834,12 +831,6 @@ address {
   border: 1px solid #eeeeee;
 }
 
-/*Icon*/
-/*.nav-icon {
-  width: 10px;
-  height: 16px;
-  fill: rgba(117, 117, 117, 1);
-}*/
 /*Modal Window*/
 .backdrop {
   position: fixed;
